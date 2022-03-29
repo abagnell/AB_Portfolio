@@ -28,7 +28,7 @@ min-width: 700px;
  min-width:200px;
  flex-direction:column;
  gap: 20px;
- box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ 
 }
 
 
@@ -65,6 +65,14 @@ min-width: 700px;
     padding-left: 30px;
 }
 
+.footer {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .1em;
+    font-weight: 300;
+    font-size: 12px;
+    padding-left: 30px;
+}
 
 .projects {
     display: flex;
