@@ -28,7 +28,6 @@ min-width: 700px;
  min-width:200px;
  flex-direction:column;
  gap: 20px;
- 
 }
 
 
@@ -128,10 +127,11 @@ min-width: 700px;
 }
 
 .footer {
-    display: grid;
-    grid-template-rows: max-content;
-    column-span: all;
-    color: #526E71;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: .1em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(70, 53, 53);
+    text-align: center;
+    padding: 20px;
 }
