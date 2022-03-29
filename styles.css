@@ -1,0 +1,129 @@
+
+p {
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: .1em;
+      padding-left: 15px;
+
+  }
+
+  p:hover {
+    background-color: whitesmoke;
+    color: #526E71;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+  }
+
+.flex-container {
+display: flex;
+justify-content: center;
+min-width: 700px;
+}
+
+.sideBar {
+ display: flex;
+ background-color: #526E71;
+ min-width:200px;
+ flex-direction:column;
+ gap: 20px;
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 150px; 
+}
+
+.aboutMe {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .1em;
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-top:60px;
+
+}
+
+.UXUI {
+    padding-top:60px;
+    padding-left: 30px;
+}
+
+.campaigns {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .1em;
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project1 { 
+    border-style: solid;
+    border-color: grey;
+    border-width: .25px;
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom:5px;
+    background: url(./images/PUB.png);
+    background-size: cover;
+}
+
+.project2 {
+    border-style: solid;
+    border-color: grey;
+    border-width: .25px;
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom:5px;
+    background: url(./images/SafeTravels.png);
+    background-size: cover;
+}
+
+.project3 {
+    border-style: solid;
+    border-color: grey;
+    border-width: .25px;
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom:5px;
+    background: url(./images/USDA.png);
+    background-size: cover;
+}
+
+.project4 {
+    grid-area: p4;
+    align-self: center;
+}
+
+.footer {
+    display: grid;
+    grid-template-rows: max-content;
+    column-span: all;
+    color: #526E71;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .1em;
+}
